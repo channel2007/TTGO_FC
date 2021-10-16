@@ -1,5 +1,5 @@
 # TTGO_FC
-![alt TBoy](https://github.com/channel2007/TBoy_ZooCube/blob/master/art/TBoy.jpeg "TBoy")
+![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/pototype.jpg "TTGO_FC")
 
 # 研發日誌
 * 2021/10/16 初版
