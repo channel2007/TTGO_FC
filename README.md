@@ -5,7 +5,7 @@
 * 2021/10/16 初版
 
 # 前言
-
+使用TTGO板執行FC模擬器
 
 # 準備材料
 * TTGO T-Display ESP32 x1
