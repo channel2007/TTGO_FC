@@ -21,7 +21,7 @@
 
 # 參考資料
 * 本專案修改至陳亮老師的GitHub專案
-  * arduino-nofrendo(https://github.com/moononournation/arduino-nofrendo)
+  * [arduino-nofrendo](https://github.com/moononournation/arduino-nofrendo)
 
 # 官方紛絲團 
 [無限升級](https://www.facebook.com/unlimited.upgrade/posts/2840132506240869?notif_id=1617421138749926&notif_t=page_post_reaction&ref=notif)
