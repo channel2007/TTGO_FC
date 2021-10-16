@@ -17,7 +17,7 @@
 * 140根 麵包板線 x1盒
 
 # 線路圖
-![alt TBoy](https://github.com/channel2007/TBoy_ZooCube/blob/master/art/Schematic_TBoy.png "TBoy")
+![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/circuitDiagram.png "TTGO_FC")
 
 # 參考資料
 * 本專案修改至陳亮老師的GitHub專案
