@@ -137,14 +137,21 @@ extern "C" void display_init()
 
 extern "C" void display_write_frame(const uint8_t *data[])
 {    
+    //Serial.println(NES_SCREEN_HEIGHT);
+    int16_t row=0;
     gfx->startWrite();
     // TTGO.
     if (w == 240 && h==135){
       gfx->writeAddrWindow(0, 0, frame_width, frame_height);
       for (int32_t i = 0; i < NES_SCREEN_HEIGHT; i++)
       {
-        if ((i % 2) == 1)
-          gfx->writeIndexedPixels((uint8_t *)(data[i] + frame_x_offset), myPalette, frame_line_pixels);
+        if ((i % 2) == 1){
+          gfx->writeIndexedPixels((uint8_t *)(data[i] + frame_x_offset), myPalette, frame_line_pixels);        
+        }else{
+          row++;
+          if ((row % 8) == 1)
+            gfx->writeIndexedPixels((uint8_t *)(data[i] + frame_x_offset), myPalette, frame_line_pixels);        
+        }
       }
     }else if (w < 480){            
         gfx->writeAddrWindow(frame_x, frame_y, frame_width, frame_height);
