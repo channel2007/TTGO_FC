@@ -2,6 +2,7 @@
 ![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/pototype.jpg "TTGO_FC")
 
 # 研發日誌
+* 2025/7/12  重新編譯韌體檔案(firmware目錄)
 * 2023/3/1   修改將畫面延伸至全螢幕
 * 2021/10/16 初版
 
@@ -19,6 +20,22 @@
 
 # 線路圖
 ![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/circuitDiagram.png "TTGO_FC")
+
+# 燒錄韌體
+* 將firmware目錄內的檔案透過flash_download_tool工具燒錄進TTGO T-Display內
+* 開啟燒錄工具後參考以下設定
+* 【圖】設定
+* 檢查設定無誤後請按下START開始燒錄，等燒錄完畢，記得拔到電源再插上，如TTGO T-Display螢幕出現以下畫面，恭喜您已經燒錄成功
+* 【圖】TTGO T-Display螢幕
+
+# 上傳ROM檔案
+* [下載arduino-esp32fs-plugin外掛](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/tag/1.0)
+* [請參考這個網址安裝外掛](https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/?fbclid=IwY2xjawLeGthleHRuA2FlbQIxMABicmlkETFTNDBMUVRjQ2JsamlIM2M3AR4Uc8BM6RyEro_KZrvjfgJT1MrF0VcvqlrbqUz-l-KLUT9eaOtNVYVtXG8Z2A_aem_EtgH_SRQUT_7NxGu6uBOEQ)
+* 開啟esp32-nofrendo/esp32-nofrendo.ino檔案，並將要燒錄的ROM檔案放入esp32-nofrendo/data目錄內(只能一個ROM檔案)
+* 設定正確的序列埠
+* 【圖】
+* 選擇以下選項開始燒錄ROM檔案
+* 【圖】
 
 # 參考資料
 * 本專案修改至陳亮老師的GitHub專案
