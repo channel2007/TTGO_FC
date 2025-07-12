@@ -23,7 +23,7 @@
 
 # 燒錄韌體
 * 將firmware目錄內的檔案透過flash_download_tool工具燒錄進TTGO T-Display內
-* [flash_download_tool工具](https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html)
+* [下載flash_download_tool工具](https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html)
 * 開啟燒錄工具後參考以下設定
 * ![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/burn.jpg "TTGO_FC")
 * 檢查設定無誤後按下START開始燒錄，等燒錄完畢，記得拔掉電源再插上，如TTGO T-Display螢幕出現以下畫面，恭喜您已經燒錄成功
