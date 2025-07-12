@@ -26,7 +26,7 @@
 * [下載flash_download_tool工具](https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html)
 * 開啟燒錄工具後參考以下設定
 * ![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/burn.jpg "TTGO_FC")
-* 檢查設定無誤後按下START開始燒錄，等燒錄完畢，記得拔掉電源再插上，如TTGO T-Display螢幕出現以下畫面，恭喜您已經燒錄成功
+* 檢查設定無誤後按下START開始燒錄，等燒錄完畢，記得拔掉電源再插上，TTGO T-Display螢幕出現以下畫面，恭喜您已經燒錄成功
 * ![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/teach_4.jpg "TTGO_FC")
 
 # 上傳ROM檔案
@@ -37,6 +37,8 @@
 * ![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/teach_1.jpg "TTGO_FC")  
 * 選擇ESP32 Sketch Data Upload開始燒錄ROM檔案
 * ![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/teach_2.jpg "TTGO_FC")
+* 燒錄完成後，拔掉電源再插上，就可以在TTGO T-Display螢幕上看到燒錄的遊戲畫面
+* ![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/teach_3.jpg "TTGO_FC")
 
 # 參考資料
 * 本專案修改至陳亮老師的GitHub專案
