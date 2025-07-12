@@ -24,9 +24,9 @@
 # 燒錄韌體
 * 將firmware目錄內的檔案透過flash_download_tool工具燒錄進TTGO T-Display內
 * 開啟燒錄工具後參考以下設定
-* 【圖】設定
+* ![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/burn.jpg "TTGO_FC")
 * 檢查設定無誤後請按下START開始燒錄，等燒錄完畢，記得拔到電源再插上，如TTGO T-Display螢幕出現以下畫面，恭喜您已經燒錄成功
-* 【圖】TTGO T-Display螢幕
+* ![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/teach_4.jpg "TTGO_FC")
 
 # 上傳ROM檔案
 * [下載arduino-esp32fs-plugin外掛](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/tag/1.0)
