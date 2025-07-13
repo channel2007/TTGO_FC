@@ -47,6 +47,10 @@
 * 開啟"命令提示字元"，輸入go.bat COM1(後面這個COM1是您電腦與TTGO連接的COM號碼)
 * 執行後就可以將ROM檔案傳輸到TTGO內了
 
+# 編譯原始碼所需函數庫
+  * [Arduino_GFX](https://github.com/moononournation/Arduino_GFX/releases/tag/v1.1.5)
+  * [arduino-nofrendo](https://github.com/moononournation/arduino-nofrendo)
+
 # 參考資料
 * 本專案修改至陳亮老師的GitHub專案
   * [arduino-nofrendo](https://github.com/moononournation/arduino-nofrendo)
