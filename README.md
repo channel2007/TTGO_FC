@@ -2,6 +2,7 @@
 ![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/pototype.jpg "TTGO_FC")
 
 # 研發日誌
+* 2025/7/13  新增ROM檔案上傳工具(tools目錄)
 * 2025/7/12  重新編譯韌體檔案(firmware目錄)
 * 2023/3/1   修改將畫面延伸至全螢幕
 * 2021/10/16 初版
