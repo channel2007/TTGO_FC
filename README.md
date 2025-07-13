@@ -40,6 +40,12 @@
 * 燒錄完成後，拔掉電源再插上，就可以在TTGO T-Display螢幕上看到燒錄的遊戲畫面
 * ![alt TTGO_FC](https://github.com/channel2007/TTGO_FC/blob/main/image/teach_3.jpg "TTGO_FC")
 
+# 上傳ROM工具
+* 只支援Windows
+* 開啟tools目錄，將要上傳的ROM檔案放入data目錄內(只能一個)
+* 開啟"命令提示字元"，輸入go.bat COM1(後面這個COM1是您電腦與TTGO連接的COM號碼)
+* 執行後就可以將ROM檔案傳輸到TTGO內了
+
 # 參考資料
 * 本專案修改至陳亮老師的GitHub專案
   * [arduino-nofrendo](https://github.com/moononournation/arduino-nofrendo)
