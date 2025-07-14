@@ -44,7 +44,7 @@
 # 上傳ROM檔案工具
 * 只支援Windows
 * 開啟tools目錄，將要上傳的ROM檔案放入data目錄內(只能一個)
-* 開啟"命令提示字元"，輸入go.bat COM1(後面這個COM1是您電腦與TTGO連接的COM號碼)
+* 開啟"命令提示字元"，輸入go.bat COM1(後面這個COM1是您電腦與TTGO連接的COM)
 * 執行後就可以將ROM檔案傳輸到TTGO內了
 
 # 編譯原始碼所需函數庫
