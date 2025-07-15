@@ -8,7 +8,8 @@
 * 2021/10/16 初版
 
 # 前言
-使用TTGO板執行FC模擬器
+使用TTGO板執行FC模擬器。。。
+注意：此FC/NES模擬器並非支援所有Mapper
 
 # 準備材料
 * TTGO T-Display ESP32 x1
